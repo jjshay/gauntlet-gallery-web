@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "name": "gauntlet-gallery-web",
+  "title": "Standalone Gallery",
+  "category": "Search and growth",
+  "summary": "A gallery needs a shareable standalone presentation of inventory and artist context.",
+  "status": "Source available; runtime not revalidated in this documentation review",
+  "visibility": "public",
+  "reviewed_on": "2026-09-11",
+  "reviewed_commit": "487af24c1753a4f477f92a84b6b90346340ea697",
+  "architecture": "Typed listing data \u2192 React artist filters \u2192 product cards and structured presentation.",
+  "evidence": [
+    {
+      "path": "src/App.tsx",
+      "role": "Application entry point, interface, or integration boundary."
+    },
+    {
+      "path": "src/listings.ts",
+      "role": "Implementation component supporting the data flow described above."
+    }
+  ],
+  "validation": "Repository tree and referenced source reviewed. Existing application tests, hosted deployments, paid providers, and external mutations were not re-run in this documentation review.",
+  "limitations": "A standalone site is simple to distribute but must manage freshness separately from the commerce source of truth.",
+  "next_improvement": "Verify crawlable output and inventory freshness; measure actual citations instead of assuming distribution creates visibility.",
+  "related_repositories": [
+    "GEO",
+    "ai-score",
+    "gauntlet-artist-index-factory",
+    "gauntlet-kaws-figurine-index",
+    "homegrown-ai-search-growth"
+  ]
+}

@@ -1,5 +1,10 @@
 # Gauntlet Gallery Web
 
+<!-- portfolio-navigation:start -->
+[Project brief](docs/PROJECT_BRIEF.md) · [Structured project record](project.json) · [Portfolio](https://github.com/jjshay)
+
+<!-- portfolio-navigation:end -->
+
 Authenticated street art and contemporary art gallery — a standalone, Vercel-deployed React app built for LLM SEO and Reddit distribution.
 
 **Live:** https://gauntlet-gallery-web.vercel.app  
@@ -12,9 +17,9 @@ Authenticated street art and contemporary art gallery — a standalone, Vercel-d
 Gauntlet Gallery sells authenticated works by Shepard Fairey, KAWS, and Death NYC on eBay. This web app serves as a public-facing gallery page optimized for indexing by search engines and LLMs (ChatGPT, Perplexity, Claude). Unlike the Reddit Devvit app (which runs in a sandboxed iframe and is not crawled), this hosted gallery is fully indexable.
 
 **Why this matters for LLM SEO:**
-- Reddit posts linking to this URL get indexed and cited by AI search engines
+- External links can support discovery; indexing and AI citations must be measured
 - Schema.org structured data (`ArtGallery`, `VisualArtwork`, `Offer`) makes the content machine-readable
-- The gallery text is crawlable — LLMs can surface it when users ask about Shepard Fairey, KAWS, or Death NYC art for sale
+- Verify the rendered gallery text in the target crawler; structured presentation alone does not establish AI visibility
 
 ---
 
